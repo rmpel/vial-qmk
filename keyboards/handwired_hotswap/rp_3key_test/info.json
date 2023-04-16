@@ -1,0 +1,27 @@
+{
+    "manufacturer": "Remon Pel",
+    "keyboard_name": "3key_test",
+    "maintainer": "rmpel",
+    "processor": "atmega32u4",
+    "bootloader": "caterina",
+    "diode_direction": "COL2ROW",
+    "matrix_pins": {
+        "cols": ["B4", "E6", "D7" ],
+        "rows": ["B5" ]
+    },
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "vid": "0x04D8",
+        "pid": "0xEB2E"
+    },
+    "layouts": {
+        "LAYOUT_ortho_1x3": {
+            "layout": [
+                { "matrix": [0, 0], "x": 0, "y": 0 },
+                { "matrix": [0, 1], "x": 1, "y": 0 },
+                { "matrix": [0, 2], "x": 2, "y": 0 }
+            ]
+        }
+    }
+}
