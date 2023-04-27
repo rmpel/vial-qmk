@@ -1,6 +1,6 @@
 {
     "manufacturer": "Remon Pel",
-    "keyboard_name": "handwired_hotswap/rp_numpad_4x6",
+    "keyboard_name": "RP Numpad",
     "maintainer": "rmpel",
     "bootloader": "halfkay",
     "diode_direction": "COL2ROW",
