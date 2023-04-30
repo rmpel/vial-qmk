@@ -18,28 +18,6 @@
 
 #include "quantum.h"
 
-
-#ifdef VIA_ENABLE
-#    define USER_START USER00
-#else
-#    define USER_START SAFE_RANGE
-#endif
-
-// clang-format off
-enum {
-    KC_LOPTN = USER_START,
-    KC_ROPTN,
-    KC_LCMMD,
-    KC_RCMMD,
-    KC_MCTL,
-    KC_LNPD,
-    KC_TASK,
-    KC_FILE,
-    KC_SNAP,
-    KC_CTANA,
-    KC_SIRI,
-};
-
 #define LAYOUT( \
     K00,         K01,  K02,   K03,   K04,   K05,  K06,   K07,   K08,   K09,  K10,  K11,   K12,  K13,   K14,   K15,   \
     K20,  K21,   K22,  K23,   K24,   K25,   K26,  K27,   K28,   K29,   K30,  K31,  K32,   K34,  K35,   K36,   K37,   \
