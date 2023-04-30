@@ -2,10 +2,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #include QMK_KEYBOARD_H
-
-enum custom_keycodes {
-    KC_P00 = SAFE_RANGE
-};
+#include "rp_common.h"
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /*
@@ -58,13 +55,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
-    if (record->event.pressed) {
-        switch (keycode) {
-            case KC_P00:
-                tap_code(KC_P0);
-                tap_code(KC_P0);
-                return false;
-        }
+    if (!process_record_rp(keycode, record)) {
+        return false;
     }
+
     return true;
 }

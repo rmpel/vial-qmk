@@ -42,6 +42,13 @@ bool process_record_rp(uint16_t keycode, keyrecord_t *record) {
                 }
             }
             break;
+        case KC_P00:
+            if (record->event.pressed) {
+                tap_code(KC_P0);
+                tap_code(KC_P0);
+                return false;
+            }
+            break;
         case KC_TASK_VIEW:
         case KC_FILE_EXPLORER:
         case KC_SCREEN_SHOT:

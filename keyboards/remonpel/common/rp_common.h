@@ -35,6 +35,7 @@ enum custom_keycodes {
     KC_LCKW,
     KC_TERMINAL_HOME,
     KC_TERMINAL_END,
+    KC_P00
 };
 
 #define KC_MCTL KC_MISSION_CONTROL

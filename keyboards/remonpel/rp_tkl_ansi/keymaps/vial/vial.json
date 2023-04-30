@@ -11,7 +11,8 @@
     {"name": "Lock Mac", "title": "Lock computer in macOS", "shortName": "Lock macOS"},
     {"name": "Lock Win", "title": "Lock computer in Windows", "shortName": "Lock Windows"},
     {"name": "Home (T)", "title": "Home in Terminal", "shortName": "Home (Terminal)"},
-    {"name": "END (T)", "title": "End in Terminal", "shortName": "End (Terminal)"}
+    {"name": "END (T)", "title": "End in Terminal", "shortName": "End (Terminal)"},
+    {"name": "00", "title": "00", "shortName": "00"}
     ],
   "matrix": {"rows": 6, "cols": 17},
   "layouts": {
