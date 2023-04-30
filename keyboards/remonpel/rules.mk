@@ -1,2 +1,2 @@
-VPATH += keyboards/handwired_hotswap/common
+VPATH += keyboards/remonpel/common
 SRC += rp_common.c
